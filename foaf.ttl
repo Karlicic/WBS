@@ -1,1 +1,35 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/Karlicic/WBS/main/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/Karlicic/WBS/main/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/Karlicic/WBS/main/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/Karlicic/WBS/main/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Karlichikj" ;
+    foaf:givenname "Marta" ;
+    foaf:homepage <https://raw.githubusercontent.com/Karlicic/WBS/main/foaf.ttl> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/ekostadinov5/foaf/master/foaf.ttl?fbclid=IwAR3YYDRCtoAfb35gvgFTMTlz2joqqSVLE5VpzSKr0l3cpwtMWPKLMp08f5M> ;
+            foaf:mbox_sha1sum "77de3ee39ae0f51922497368f34ddaf028a82385" ;
+            foaf:name "Evgenij Kostadinov" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/filip-zdraveski/WBS_D5/main/foaf.ttl?fbclid=IwAR0JS1PbS1wmi46k6rgxb2sOTfBPGq5tpI6Ofingsu342SzjZa0lz28vc10> ;
+            foaf:mbox_sha1sum "c00f4ace5315796f13f7d82a722dd797d5c73697" ;
+            foaf:name "Filip Zdraveski" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/trajkovskifilip/web-based-systems-homework/main/foaf.ttl?fbclid=IwAR2Lxqg8PUN1nwTXw3eo9QI36hPe9Z9WH2LpEtrw71HwWPybIz1uqCz36GQ> ;
+            foaf:mbox_sha1sum "2030ce8d613ccd32d88648f7ee7f347509e07a86" ;
+            foaf:name "Filip Trajkovski" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/vavramovski/foaf/main/foaf.ttl?fbclid=IwAR34OSNdRH1YOXK0IAzhME12i_qTy8JPnh3vI-Ep0uu8HFxQLaxOD6vy-vk> ;
+            foaf:mbox_sha1sum "1cf83be00cb5e48f123aeb3ad804787e1204533b" ;
+            foaf:name "Viktor Avramovski" ] ;
+    foaf:mbox_sha1sum "6d3b5b49b4f969c7f089d16f5be651de5241c996" ;
+    foaf:name "Marta Karlichikj" ;
+    foaf:nick "Marte" ;
+    foaf:phone <tel:072-215-828> ;
+    foaf:schoolHomepage <https://www.finki.ukim.mk/> .
